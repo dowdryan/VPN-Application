@@ -61,6 +61,6 @@ endpoint = result.stdout
 def configure_vpn():
     server_private, server_public = generate_keys()
     client_private, client_public = generate_keys()
-    write_config(server_private, server_public, endpoint.strip())
+    write_config(server_private, server_public)
     write_client_config(client_private, client_public, endpoint.strip())
     return server_private, server_public, client_private, client_public
