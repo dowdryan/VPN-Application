@@ -1,6 +1,6 @@
 # VPN-Application
 
-# Prerequisites:
+Prerequisites:
 Install WireGuard: ```sudo apt install wireguard```
 Install Tkinter: ```sudo apt install python3-tk```
 
