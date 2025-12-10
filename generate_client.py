@@ -63,8 +63,4 @@ def configure_vpn():
     client_private, client_public = generate_keys()
     write_config(server_private, server_public, endpoint.strip())
     write_client_config(client_private, client_public, endpoint.strip())
-    print("Server Private Key:", server_private)
-    print("Server Public Key:", server_public)
-    print("Client Private Key:", client_private)
-    print("Client Public Key:", client_public)
     return server_private, server_public, client_private, client_public
